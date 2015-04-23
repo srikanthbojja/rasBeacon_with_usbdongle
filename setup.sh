@@ -20,7 +20,7 @@ sudo make install
 
 sudo apt-get install python-bluez
 
-cd ../../
+cd ../../blescan/
 git clone https://github.com/switchdoclabs/iBeacon-Scanner-.git
 ln -s iBeacon-Scanner-/blescan.py blescan.py
 
