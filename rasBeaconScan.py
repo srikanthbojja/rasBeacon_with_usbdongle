@@ -19,6 +19,9 @@ GPIO.setup(23, GPIO.OUT)
 p = GPIO.PWM(23,50) #set the PWM on pin 21 to 50percent
 p.start(0)
 
+####
+# getDistance is not good.
+####
 def getDistance(rssi, txPower):
         #
         # RSSI = TxPower - 10 * n * lg(d)
