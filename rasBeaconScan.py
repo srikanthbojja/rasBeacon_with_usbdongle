@@ -3,6 +3,8 @@
 # Thanx to 
 # https://github.com/adamf
 # https://github.com/switchdoclabs/iBeacon-Scanner-
+# and
+# Bluez
 
 import blescan
 import sys
