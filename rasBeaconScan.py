@@ -16,7 +16,7 @@ import bluetooth._bluetooth as bluez
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(23, GPIO.OUT)
 
-p = GPIO.PWM(23,50) #set the PWM on pin 21 to 50percent
+p = GPIO.PWM(23,50) #set the PWM on pin 23 to 50percent
 p.start(0)
 
 ####
