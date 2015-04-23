@@ -51,6 +51,8 @@ while True:
         for beacon in returnedList:
                 #print beacon
                 row = beacon.split(',')
+                
+                # Change row[1] value to your beacon ID
                 if row[1]=='e20a39f473f54bc4a12f17d1ad07a961' or row[1]=='65ffdf36bc6a42b6b3709674342abbbb':
                 #if True:
                         txPower = abs(int(row[4]))
@@ -66,6 +68,8 @@ while True:
                                         value = 0
                                 p.ChangeDutyCycle(value)
                                 zonename = ''
+                                
+                                # Change row[1] value to your beacon ID
                                 if row[1]=='e20a39f473f54bc4a12f17d1ad07a961':
                                         zonename = 'rasppizone'
                                 elif row[1]=='65ffdf36bc6a42b6b3709674342abbbb':
